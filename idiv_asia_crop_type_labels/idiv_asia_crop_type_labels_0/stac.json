@@ -1,0 +1,236 @@
+{
+    "assets": {
+        "documentation": {
+            "href": "../_common/documentation.pdf",
+            "title": "Dataset Documentation",
+            "type": "application/pdf"
+        },
+        "labels": {
+            "href": "../_common/labels.geojson",
+            "title": "Crop Labels",
+            "type": "application/geo+json"
+        },
+        "original": {
+            "href": "../_common/original.zip",
+            "title": "Original Dataset",
+            "type": "application/zip"
+        }
+    },
+    "bbox": [
+        60.20132973,
+        37.42410181284845,
+        72.35394193117526,
+        41.82521505
+    ],
+    "collection": "idiv_asia_crop_type_labels",
+    "geometry": {
+        "coordinates": [
+            [
+                [
+                    72.35394193117526,
+                    37.42410181284845
+                ],
+                [
+                    72.35394193117526,
+                    41.82521505
+                ],
+                [
+                    60.20132973,
+                    41.82521505
+                ],
+                [
+                    60.20132973,
+                    37.42410181284845
+                ],
+                [
+                    72.35394193117526,
+                    37.42410181284845
+                ]
+            ]
+        ],
+        "type": "Polygon"
+    },
+    "id": "idiv_asia_crop_type_labels_0",
+    "links": [
+        {
+            "href": "../collection.json",
+            "rel": "collection"
+        },
+        {
+            "href": "../collection.json",
+            "rel": "parent"
+        }
+    ],
+    "properties": {
+        "datetime": "2018-07-01T00:00:00Z",
+        "label:classes": [
+            {
+                "counts": [
+                    {
+                        "count": 4027,
+                        "name": "cotton"
+                    },
+                    {
+                        "count": 3514,
+                        "name": "wheat"
+                    },
+                    {
+                        "count": 234,
+                        "name": "orchard"
+                    },
+                    {
+                        "count": 170,
+                        "name": "rice"
+                    },
+                    {
+                        "count": 34,
+                        "name": "vegetables"
+                    },
+                    {
+                        "count": 126,
+                        "name": "maize"
+                    },
+                    {
+                        "count": 122,
+                        "name": "alfalfa"
+                    },
+                    {
+                        "count": 9,
+                        "name": "melons"
+                    },
+                    {
+                        "count": 52,
+                        "name": "vineyard"
+                    },
+                    {
+                        "count": 128,
+                        "name": "fallow"
+                    },
+                    {
+                        "count": 1,
+                        "name": "soy"
+                    },
+                    {
+                        "count": 2,
+                        "name": "potato"
+                    },
+                    {
+                        "count": 1,
+                        "name": "cabbages"
+                    },
+                    {
+                        "count": 3,
+                        "name": "onions"
+                    },
+                    {
+                        "count": 2,
+                        "name": "sunflower"
+                    },
+                    {
+                        "count": 3,
+                        "name": "carrots"
+                    },
+                    {
+                        "count": 2,
+                        "name": "beans"
+                    },
+                    {
+                        "count": 1,
+                        "name": "tomatoes"
+                    },
+                    {
+                        "count": 1,
+                        "name": "oats"
+                    },
+                    {
+                        "count": 2,
+                        "name": "potatoes"
+                    },
+                    {
+                        "count": 1,
+                        "name": "pumpkin"
+                    }
+                ],
+                "property_key": "crop_1"
+            },
+            {
+                "counts": [
+                    {
+                        "count": 6505,
+                        "name": "N/A"
+                    },
+                    {
+                        "count": 1403,
+                        "name": "other"
+                    },
+                    {
+                        "count": 315,
+                        "name": "rice"
+                    },
+                    {
+                        "count": 144,
+                        "name": "maize"
+                    },
+                    {
+                        "count": 37,
+                        "name": "vegetables"
+                    },
+                    {
+                        "count": 11,
+                        "name": "sorghum"
+                    },
+                    {
+                        "count": 11,
+                        "name": "broom"
+                    },
+                    {
+                        "count": 1,
+                        "name": "soy"
+                    },
+                    {
+                        "count": 1,
+                        "name": "barley"
+                    },
+                    {
+                        "count": 2,
+                        "name": "cotton"
+                    },
+                    {
+                        "count": 2,
+                        "name": "carrot"
+                    },
+                    {
+                        "count": 1,
+                        "name": "carrots"
+                    },
+                    {
+                        "count": 1,
+                        "name": "melons"
+                    },
+                    {
+                        "count": 1,
+                        "name": "beans"
+                    }
+                ],
+                "property_key": "crop_2"
+            }
+        ],
+        "label:description": "Crop Type Labels Tile 0",
+        "label:methods": [
+            "manual"
+        ],
+        "label:properties": [
+            "crop_1",
+            "crop_2"
+        ],
+        "label:tasks": [
+            "classification"
+        ],
+        "label:type": "vector"
+    },
+    "stac_extensions": [
+        "label"
+    ],
+    "stac_version": "1.0.0-beta.2",
+    "type": "Feature"
+}

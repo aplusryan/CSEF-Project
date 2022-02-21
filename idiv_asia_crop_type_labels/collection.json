@@ -1,0 +1,57 @@
+{
+    "description": "Land cover is a key variable in the context of climate change. In particular, crop type information is essential to understand the spatial distribution of water usage and anticipate the risk of water scarcity and the consequent danger of food insecurity. This applies to arid regions such as the Aral Sea Basin (ASB), Central Asia, where agriculture relies heavily on irrigation. Here, remote sensing is valuable to map crop types, but its quality depends on consistent ground-truth data. Yet, in the ASB, such data is missing. Addressing this issue, we collected thousands of polygons on crop types, 97.7% of which in Uzbekistan and the remaining in Tajikistan. We collected 8,196 samples between 2015 and 2018, 213 in 2011 and 26 in 2008. Our data compiles samples for 40 crop types and is dominated by \u201ccotton\u201d (40%) and \u201cwheat\u201d, (25%). These data were meticulously validated using expert knowledge and remote sensing data and relied on transferable, open-source workflows that will assure the consistency of future sampling campaigns.",
+    "extent": {
+        "spatial": {
+            "bbox": [
+                [
+                    60.20132973,
+                    37.42410181284845,
+                    72.35394193117526,
+                    41.82521505
+                ]
+            ]
+        },
+        "temporal": {
+            "interval": [
+                [
+                    "2018-07-01T00:00:00+0000",
+                    "2018-07-01T00:00:00+0000"
+                ]
+            ]
+        }
+    },
+    "id": "idiv_asia_crop_type_labels",
+    "license": "CC-BY-4.0",
+    "links": [
+        {
+            "href": "idiv_asia_crop_type_labels_0/stac.json",
+            "rel": "item"
+        }
+    ],
+    "providers": [
+        {
+            "name": "German Centre for Integrative Biodiversity Research",
+            "roles": [
+                "licensor",
+                "producer",
+                "processor"
+            ],
+            "url": "https://www.idiv.de/en/index.html"
+        },
+        {
+            "name": "Radiant Earth Foundation",
+            "roles": [
+                "host"
+            ],
+            "url": "https://radiant.earth"
+        }
+    ],
+    "sci:citation": "Remelgado, Ruben; Zaitov, Sherzod; Kenjabaev, Shavkat; Stulina, Galina; Sultanov, Murod; Ibrakhimov, Mirzakhayot; et al. (2020): A crop type dataset for consistent land cover classification in Central Asia. figshare. Dataset. https://doi.org/10.6084/m9.figshare.12047478.v2 ",
+    "sci:doi": "10.6084/m9.figshare.12047478.v2",
+    "stac_extensions": [
+        "label",
+        "scientific"
+    ],
+    "stac_version": "1.0.0-beta.2",
+    "title": "A crop type dataset for consistent land cover classification in Central Asia"
+}
